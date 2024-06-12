@@ -15,9 +15,11 @@ namespace TesteAPI.Controllers
         {
             return View();
         }
-        public IActionResult Autenticado()
+        public async Task<IActionResult> Autenticado()
         {
-            return View();
+            var usuarioAutenticado = await _httpService.Info();
+
+            return View(usuarioAutenticado);
         }
 
         public async Task<IActionResult> Login(Credentials credentials)

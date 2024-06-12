@@ -28,3 +28,4 @@ C:\Users\isaia\source\repos\TesteAPI\TesteAPI\obj\Debug\net8.0\refint\TesteAPI.d
 C:\Users\isaia\source\repos\TesteAPI\TesteAPI\obj\Debug\net8.0\TesteAPI.pdb
 C:\Users\isaia\source\repos\TesteAPI\TesteAPI\obj\Debug\net8.0\TesteAPI.genruntimeconfig.cache
 C:\Users\isaia\source\repos\TesteAPI\TesteAPI\obj\Debug\net8.0\ref\TesteAPI.dll
+C:\Users\isaia\source\repos\TesteAPI\TesteAPI\obj\Debug\net8.0\TesteAPI.sourcelink.json

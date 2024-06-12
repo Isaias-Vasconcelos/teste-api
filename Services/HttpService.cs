@@ -12,6 +12,23 @@ namespace TesteAPI.Services
             _httpClient = httpClient;
         }
 
+        public async Task<Manage> Info()
+        {
+            try
+            {
+                var request = await _httpClient.GetAsync("/auth/Manage/Info");
+
+                if (!request.IsSuccessStatusCode) throw new Exception("Erro na api");
+
+                var response = await request.Content.ReadFromJsonAsync<Manage>();
+
+                return response;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
         public async Task<Response> Post(Credentials credentials)
         {
             try
